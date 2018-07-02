@@ -1,6 +1,27 @@
 body{
   font-family: "Dosis";
+  animation-duration: 3s;
+  animation-name: slidein;
 }
+
+@keyframes slidein {
+  0% {
+    margin-top: 150%;
+    width: 300%
+  }
+
+  60% {
+    margin-top: -5%;
+    width: 100%;
+  }
+
+
+  100% {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
 
 
 .titu{
@@ -235,4 +256,43 @@ p {
 	.c3 {
 		width: 100%;
 	}
+}
+@media (max-width:580px){
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-decoration: none;
+
+  }
+
+  .footer .f1 {
+    background-color:  #C6d5c5;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    margin: 5px;
+  }
+
+  .footer .f2 {
+    background-color:  #C6d5c5;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    margin: 5px;
+  }
+  .footer .f3 {
+    background-color:  #C6d5c5;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    margin: 5px;
+  }
+  .footer .f4 {
+    background-color: #C6d5c5;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    margin: 5px;
+  }
+  }
+
+
 }
